@@ -7178,11 +7178,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sdlamini\\source\\repos\\CountryDashboardSystem\\CountryDashboardSystem\\CountryDashboardSystem.csproj",
+      "projectUniqueName": "C:\\Users\\sdlamini\\source\\repos\\Makhongele Backend Developer Challenge  Project\\Challenge Folder\\Web App\\CountryDashboard\\CountryDashboardSystem\\CountryDashboardSystem.csproj",
       "projectName": "CountryDashboardSystem",
-      "projectPath": "C:\\Users\\sdlamini\\source\\repos\\CountryDashboardSystem\\CountryDashboardSystem\\CountryDashboardSystem.csproj",
+      "projectPath": "C:\\Users\\sdlamini\\source\\repos\\Makhongele Backend Developer Challenge  Project\\Challenge Folder\\Web App\\CountryDashboard\\CountryDashboardSystem\\CountryDashboardSystem.csproj",
       "packagesPath": "C:\\Users\\sdlamini\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sdlamini\\source\\repos\\CountryDashboardSystem\\CountryDashboardSystem\\obj\\",
+      "outputPath": "C:\\Users\\sdlamini\\source\\repos\\Makhongele Backend Developer Challenge  Project\\Challenge Folder\\Web App\\CountryDashboard\\CountryDashboardSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sdlamini\\AppData\\Roaming\\NuGet\\NuGet.Config",
