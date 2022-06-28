@@ -1,0 +1,30 @@
+﻿@model IEnumerable<CountryDashboardSystem.Models.Country>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Country Dashboard</h1>
+
+<div class="row">
+    <button class="btn-block" onclick="location.href='@Url.Action("Create", "Country")'">Add New Country</button>
+</div>
+
+<br/>
+
+<div class="row">
+    @foreach (var item in Model)
+    { 
+        <div class="card m-1" style="width:350px;">
+            <div class="card-body">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.CountryName)</h5>
+                <h6 class="card-subtitle mb-2 text-muted">@Html.DisplayFor(modelItem => item.IsoCode)</h6>
+                <p class="card-text">
+                    <a asp-action="Edit" asp-route-id="@item.CountryId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.CountryId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CountryId">Delete</a>
+                </p>                
+            </div>
+        </div>
+    }
+ </div>
